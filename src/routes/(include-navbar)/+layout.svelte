@@ -11,9 +11,9 @@
 {@render children()}
 
 <style>
-  :root {
-    --glow-color: #917adf;
-  }
+	:root {
+		--glow-color: #917adf;
+	}
 
 	.navbar {
 		display: flex;
@@ -23,12 +23,12 @@
 		padding: 15px 0px;
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.8);
-		border-bottom: 2px solid var(--text-color);
+		border-bottom: 1px solid var(--text-color);
 
 		:global(h2) {
 			color: var(--text-color);
 			font-weight: normal;
-      font-size: 14pt;
+			font-size: 14pt;
 		}
 		:global(a) {
 			color: var(--text-color);
@@ -41,11 +41,11 @@
 			opacity: 0.5;
 		}
 
-    @media (orientation: portrait) {
-    :global(h2) {
-      font-size: 12pt;
-    }
-  }
+		@media (orientation: portrait) {
+			:global(h2) {
+				font-size: 12pt;
+			}
+		}
 	}
 
 	.home-img {
@@ -59,9 +59,9 @@
 		filter: drop-shadow(0px 0px 10px var(--glow-color));
 	}
 
-  @media print {
-    nav {
-      display: none !important;
-    }
-  }
+	@media print {
+		nav {
+			display: none !important;
+		}
+	}
 </style>
