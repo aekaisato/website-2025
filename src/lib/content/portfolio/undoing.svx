@@ -1,0 +1,23 @@
+---
+name: Undoing
+date: 2020-10-30
+tags: ["filmmaking", "video-editing"]
+hide: true
+---
+
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="T0iASTp6aa0" videoTitle="Play: Undoing" />
+
+Like many things I'm proud of making, "Undoing" came from what many would consider to be a stupid idea. For my 12th grade AP Literature class, our teacher assigned us to do some sort of creative group project relating to Gothic literature and themes. It could be anything, though we were still in the middle of quarantine. Additionally, this was assigned on a Thursday, due before class the following Thursday; we had only a week to make it. Regardless, I *really* wanted to make a short film.
+
+After some discussion with my two close friends in the class, Lance Sahagun (who starred in the short) and [Anthony Wang](https://www.youtube.com/channel/UCLaTKE383BgO1XxAci5GSKQ), we decided to try to make a film. That Thursday, I wrote the concept, an idea that came to me with the primary goal of subverting the common use of castles and similar structures in Gothic literature. The storyboard was completely soon after. The weekend was used to figure out where to film, with the goal being somewhere foreboding. This proved to be a challenge, especially since many places were completely closed due to the pandemic. After several hours across multiple days of trying to figure this out, we picked the South Coast Plaza mall by Lance's suggestion. Also by his suggestion, we adjusted the story to include another location, where we went to Noguchi Garden, a scupture garden across the street from the mall.
+
+The day we filmed was Tuesday, two days before the due date. This was mostly straightforward, but a fun anecdote has to do with the hallways in the short film, which were actually the pathways to the bathrooms at the mall. Because of this, we had Anthony and another friend scout the ends of the hallway so we don't accidently film people moving in and out of the bathrooms.
+
+After filming, we then had only one day to edit the video. I spent all day (excluding classes) on call with friends as I edited the video, frequently exporting for feedback and suggestions. This process led to several new ideas being incorporated in, such as the reversed speech and flashing inverted facial expressions near the end.
+
+In the end, I think it's kind of funny that I created a horror-adjacent short, considering horror is a genre I never watch. Many stylistic aspects of the short were actually inspired by the [Queen Vanessa's Manor](https://www.youtube.com/watch?v=xA4XQCkNhgc) level from *A Hat in Time*. Still, I'm still happy with this project, especially considering the extremely short turnaround time for it.

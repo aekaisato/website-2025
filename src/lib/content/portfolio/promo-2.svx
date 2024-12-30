@@ -1,0 +1,19 @@
+---
+name: Northeastern Khoury Promo
+date: 2022-04-24
+tags: ["filmmaking", "video-editing"]
+hide: true
+---
+
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="qfiWS8nbCKk" videoTitle="Play: Khoury Promo 2" />
+
+This is a video made for the promotion of the Khoury College of Computer Sciences at Northeastern University. Alongside storyboarding and editing the video, all footage was shot by me. Since the video was turned it close to the end of the Spring 2022 semester, I'm not sure if it was ever released, though I am still rather happy with the result. However, due to me not having a gimbal at the time it was filmed, much of the footage shakes more than I am fully satisfied with.
+
+The "split-screen" sequence beginning at 0:53 in the video was largely inspired by the [opening sequence of the anime Horimiya](https://youtu.be/VV89kTKrVyg?t=25). I created macros in DaVinci Resolve's Fusion page in order to create a split-screen of two clip, with a splitter I could animate. I then chained the effect for several videos. This took a massive toll on my computer, and the effect had to be split into two halves in order for me to be able to edit it. Here's a screenshot of the node graph of one of the halves:
+
+![Convoluted node graph used to create the split-screen effect](/content-img/portfolio/promo-2/horimiya-effect-nodes.jpg)

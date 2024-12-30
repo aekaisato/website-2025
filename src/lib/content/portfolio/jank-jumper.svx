@@ -1,0 +1,13 @@
+---
+name: 'Jank Jumper: Unlimited'
+date: 2021-11-05
+tags: ["programming", "game-dev", "music"]
+---
+
+![Screenshot of Jank Jumper: Unlimited](/content-img/portfolio/jank-jumper/jank-jumper-screenshot.png)
+
+[Jank Jumper: Unlimited](https://aekaisato.itch.io/jank-jumper-unlimited) was a game created in two weeks for the Northeastern University Jam-O-Lantern 2021 game jam, created by [Hayden DelCiello](https://github.com/hdelc) and me in the Unity game engine. The game features a map where tiles constantly change to apply various harmful effects to your character, such as a shorter jump or slower speed. Alongside programming several elements of the game, such as the gem collection mechanics, some aspects of movement, and the generation of the base map from an image file, I also created the textures for the game, with all but the star background being created from scratch. I'm not an artist and have no experience with creating sprites like that, so even though they're pretty ugly, I'm fairly happy with the result. I also composed the music used in the game.
+
+Several aspects of the game fun and/or frustrating to create. For one, it took us a long time to figure out how jumping should function. In the end, we created three different jumping styles, each with their own flaws, and so we created three characters so players can try all of them. In addition, clipping into tiles was a major issue we had to figure out, as it would often stop the movement of the player character randomly. Though multiple iterations of differently written collision logic, we were eventually able to get the game working without bugs such as that.
+
+The game has many flaws, such as the fairly bad physics and map design. Though, having never made a platformer prior to this, and considering we did it within two weeks, I'm very proud of the project.

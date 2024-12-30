@@ -1,0 +1,20 @@
+[
+  {
+    "name": "blog",
+    "path": "/blog",
+    "wip": true
+  },
+  {
+    "name": "resume",
+    "path": "/resume.pdf"
+  },
+  {
+    "name": "portfolio",
+    "path": "/portfolio"
+  },
+  {
+    "name": "about me???",
+    "path": "/???",
+    "wip": true
+  }
+]

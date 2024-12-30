@@ -1,0 +1,24 @@
+---
+name: The Discrete Structures Christmas Special
+date: 2021-12-01
+tags: ["filmmaking", "video-editing", "music"]
+---
+
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="qxP6IkUXSK0" videoTitle="Play: discrete structures final video proj" />
+
+Oh boy, now *this* is a video! For our Discrete Structures class final project, we were asked to take a homework problem from a selection, recontextualize it and change the numbers, and make a video working through the problem. We were encouraged to have fun with the video and be creative. ***I don't think they ever saw our video coming.***
+
+Our thumbnail and video title are a blatant bait-and-switch. In fact, the thumbnail image doesn't appear in the video at all—we even took it *after* the video was done. If you haven't watched the video yet, I'd recommend watching it before reading the rest of this description.
+
+Upon seeing we can be creative with this video, an idea immediately popped into my head: we can make a musical. Rather surprisingly, my roommate and classmate [Hayden DelCiello](https://github.com/hdelc) was willing to go with my stupid idea. I created the general outline for the script and composed the backing track, and any other music used in the video. The two of us drafted the script and lyrics together. The video was filmed in our floor's common room, likely leaving many to question what the heck we were doing.
+
+For several portions of the video, we also created used split-screen in order for the two of us to play four characters. It ended up looking pretty good, all things considered, and even some portions where I overlap myself look clean.
+
+I "sung" for the video, and for that recorded a take and autotuned it the best I could. The ultimate takeaway: even aggressive autotuning can't fix garbage singing. The "teaching" segments were filmed in front of a green screen I set up in my dorm room, solely because I wanted to do the trippy effect during the bridge of the song. I also edited the video, with Hayden writing out the captions for the music portion.
+
+I had a blast making the video, and am glad to have friends willing to roll with my stupid, *stupid* ideas. Also, I'd like to take a moment to shout-out Hayden's brilliantly hilarious news ticker headlines. Rewatch that part of the video if you didn't get a chance to read them all.

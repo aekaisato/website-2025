@@ -1,0 +1,22 @@
+---
+name: From Stone to Steel
+date: 2022-06-15
+tags: ["filmmaking", "video-editing"]
+hide: true
+---
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="-O98ymHlT3A" videoTitle="Play: From Stone to Steel" />
+
+From Stone to Steel is a short documentary made on a month-long school trip abroad in London. Inspired by the extreme contrasts in architecture present in the city, the video dives into what led to this, and what citizens think of it. For this video, I came up with the concept, filmed some of the interview and b-roll footage, and served as lead video editor.
+
+Initally, our group went to London with the intention of making a documentary on the modernization of religion, and the ways religions have to adapt to the changing social landscape. We ran into problems almost immediately. We really struggled to find interviews. Many responded to our emails before ghosting us as soon as it came to scheduling. We were at least a week and a half into the trip and we still haven't recorded a single interview. That's when we decided we needed to switch.
+
+I was fascinated by the sharp conflicts between the different styles of architecture in London, the most striking of which being Lloyd's Building directly next to Leadenhall Market.
+
+![Leadenhall Market (left) and Lloyd's Building (right)](/content-img/portfolio/stone-to-steel/leadenhall-lloyds.webp)
+
+Once we switched topics, we were able to get the ball rolling with the video. We were able to secure three interviews. We took a *ton* of b-roll, and although editing was a tad last minute, requiring a couple late nights and a few boosts of caffeine, I think we were all pretty proud of the final result.

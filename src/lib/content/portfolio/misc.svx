@@ -1,0 +1,37 @@
+---
+name: Miscellaneous Projects
+date: ""
+tags: ["programming"]
+---
+
+As part of the natural cycle of side projects, I work on a lot of side projects that don't deserve an entire page of content. Here is a small sample of those projects:
+
+<p></p>
+
+**Puzzle for Brandon**
+
+A hellishly long series of CTF-like puzzles unleashed upon a friend as a birthday gift in 2020, with an Amazon gift card as the prize for completion. He has never completed it. I'll add more detailed info once I give him the gift card and walk him through the entire thing. I recently looked at my planning document and realized just how *incredibly insane* this project was, and that's hilarious.
+
+<p></p>
+
+**Disneyland Waittimes**
+
+Before I knew about Disney Genie (a poorly designed product for reasons I will delve into shortly), I thought it would be fun to make my own Disneyland trip planner program before I went on a trip there with my sister. I eventually learned that any attempts to plan a trip before going are made in vain.
+
+The project consisted of three parts: a way to fetch and store wait times, a way to display a graph of wait times, and an attempt to minimize the time it takes to complete a set of rides when factoring in walking time, waiting time, and ride length. The fetching of wait times was done using a third-party Node.js API, and wait times were simply stored in my Git repo. This ran and updated for a number of months, which is why the repo currently has over a thousand(!!!) commits. The graph was a simple render of the data, with the ability to set what ride and park you viewed. The trip planning website tried multiple strategies, ultimately using a "bubble sort-esqe" algorithm to make a half-decent guess at a itinerary based on the information it was given. This was a pain, as it really was trying to estimate the NP-hard traveling salesman problem, but with additional steps (like wait times!). Ultimately, though, this wasn't even the main problem!
+
+The main problem with this is how variable wait times are. Alongside unforeseen circumstances, such as ride breakdowns that are common at Disneyland, the patterns of wait times from day-to-day are so inconsistent that it is almost always a better idea to play it by ear instead, which is what my sister and I ended up doing when we went, and we were able to do everything we wanted, and them some (though, I guess prior knowledge of park layout and rough intuition on wait time patterns helped quite a bit with this).
+
+The source code for this is available [on GitHub](https://github.com/aekaisato/disneyland-waittimes). This was never meant to be released publicly, so everything about the repo is a mess.
+
+<p></p>
+
+**Bookmark Formatter**
+
+This project was a simple way for me to practice a bit of my functional programming skills with Racket, a dialect of Lisp. It's a very simple script that takes a folder of yaml files and parses them to a bookmark import format supported by Firefox and Chromium-based browsers using HTML. The entire thing was slapped together in a day. Source code is available [on GitHub](https://github.com/aekaisato/bookmark-formatter).
+
+<p></p>
+
+**Random Hackathon Stuff**
+
+I did a couple of virtual hackathons in my junior year of high school with a couple people at my school. I'm honestly not happy with the results at all, but it's something that I did. [Hymn, a home gym workout tracker.](https://devpost.com/software/hymn-gzjxti) [CoVCast, a COVID-19 forecast app](https://devpost.com/software/covcast). (To be fair, I didn't come up with the ideas here, I just contributed to code and UI design.)

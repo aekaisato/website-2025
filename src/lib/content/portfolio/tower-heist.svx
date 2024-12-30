@@ -1,0 +1,32 @@
+---
+name: Tower Heist (Prototype)
+date: 2021-07
+tags: ["programming", "game-dev"]
+---
+
+
+![Random UI sketches I drew for Tower Heist](/content-img/portfolio/tower-heist/random-sketches.jpg)
+
+Tower Heist is a turn-based, social-deduction, strategy capture-the-flag board game created by a friend, [Matthew Young](https://www.instagram.com/matt55young/). A group of us planned to create a video game adapatation of the game. Thus far, a rough prototype has been created in Unity, though development is currently halted, at least until [Creed](#creed), another game designed by the same person, is finished.
+
+The Tower Heist prototype is capable of online play, assuming the clients can connect to the correct port on the server. It additionally fully implements the rules of the game, including the hidden information and bluffing mechanics. However, as the prototype was my first project in Unity (built during the summer between senior year of high school and freshman year of college), the codebase is rather messy, and it is likely that in the future we will reimplement it, potentially in Godot.
+
+In addition to implementing the game and networking, we began designing aspects of the game's user interface. Some music was also composed for the game by Matthew and [Anthony Wang](https://www.youtube.com/channel/UCLaTKE383BgO1XxAci5GSKQ), where I took the MIDI files and set the synth sounds in FL Studio, as well as did some light mixing. Following are a few examples:
+
+<p style="text-align: center">
+  <audio controls src="/content-img/portfolio/tower-heist/genesis-draft.mp3"></audio>
+  <br/>
+  Anthony Wang - Genesis (edited by me)
+</p>
+<p style="text-align: center">
+  <audio controls src="/content-img/portfolio/tower-heist/clockwork-draft.mp3"></audio>
+  <br/>
+  Matthew Young - Clockwork (edited by me)
+</p>
+<p style="text-align: center">
+  <audio controls src="/content-img/portfolio/tower-heist/bounce-draft.mp3"></audio>
+  <br/>
+  Matthew Young - Bounce (edited by me)
+</p>
+
+Honestly, I'm really excited to revisit this project once Creed (a simpler game that should be easier to make and ship) is finished. I had so much fun playtesting the physical version of Tower Heist, though the project seems stalled for now.

@@ -1,0 +1,32 @@
+---
+name: ViriDOS
+date: 2021-03-05
+tags: ["programming", "game-dev", "filmmaking", "video-editing", "music", "ui-design"]
+---
+
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="7IZIY0iLYqs" videoTitle="Play: ViriDOS Main Trailer" />
+
+[ViriDOS](https://viridos.toadtoad.xyz) (where "DOS" is pronounced as in "MS-DOS"), is a point-and-click adventure game [Brandon Imai](https://www.linkedin.com/in/brandon-imai-725692204) and I made in our senior year of high school. Largely inspired by games such as Club Penguin's [Penguin Secret Agency missions](https://www.youtube.com/watch?v=XgmusFTNSC0), ViriDOS was created for our school's PTSA to serve as an fun event for students during online learning. Brandon and I were quite ambitious with the project, and in the end, the hour-long experience featured an original story and script involving the participation of many school staff members, 16 unique puzzles, 360° panoramas of several classrooms to interact with, video cutscenes of the campus, original music, cloud sync, and a really janky "status system" that served as a timeline to control the linear progression and events of the game. From brainstorming to release, the game took 7 months to create.
+
+Brandon and I wanted to center the story around some "secret" or "mythical" item, so we created a green school polo, a tougue-in-cheek reference to our school's dress code, which only allowed grey, blue, red, and white polos. From this concept, we wrote a script, aiming to involve as many school departments as possible, and hoping to raise the stakes at two different points in the story. We had a few friends help out with brainstorming puzzle ideas with us at the same time.
+
+For the videos in the game, Brandon and I got permission to film on campus and in various classrooms, where we ran around building to building with a camera in hand. In order to create 360° panoramas of the classrooms, I used the Google Street View app on my phone (did I mention we had literally zero budget for this project?). Most of the videos were edited by Brandon, though I did edit the two "CGI" shots that look just as stilted as you'd expect. We also got in contact with several teachers at our school to record video clips of themselves for the game. In addition, we had three original songs for the game's soundtrack, the first of which was written by two other students, [TheBigBit and Spottier](https://www.youtube.com/channel/UCiNdCl5Gd_TfYKzwS1-kJIw), and the latter two of which I wrote.
+
+I was ViriDOS's sole programmer, and oh boy the codebase is *something*. For starters, we began this project when my only real development experience was with React Native, so ViriDOS was built with React Native Web with React Navigation, which I believe added a bit more complexity to the output build than there otherwise would be. In order to keep track of user progress, I created a "status system", which was a long array of objects describing screens, videos to play, or the time to wait before triggering the next item on the list. This was hacked together with tons of async functions, while loops to wait for components to mount, workarounds to account for reloading components due to switching screens, and a function over 100 lines long, mostly consisting of else-if statements.
+
+[WARNING: this paragraph contains unnecessary description of bad code and should be skipped by sane individuals.] Hacking things together is a common thread throughout this project. Four of the sixteen puzzles ([Flow Free](https://github.com/dom111/flow-free), [Tower of Hanoi](https://github.com/timfoley/tower-of-hanoi), [Oregon Trail](https://github.com/warnock/oregon-trail-game), and [Pong](https://github.com/jakesgordon/javascript-pong/)) were shoehorned in code from GitHub slapped into the project. For the 360° panorama screens, I used Google's [Marzipano](https://www.marzipano.net/) library...in the jankiest, most cursed way imaginable. The website renders an iframe of a copy of Marzipano linked in the project's static folder, with each room having *its own* copy of the entire library in the codebase. Furthermore, to trigger moving to the next screen, I have a small bit of custom code in the library to inject a text element with a specific class name and content into the iframe and detect it with a while(true) and a wait function to search every second. It wasn't until *after* I wrote this that I realized I can just pass data from the iframe to its parent, and at that point I just decided it worked and left it...oh well!
+
+I also really didn't want people to be able to use browser DevTools to jump to the end of the game to get on the leaderboard, nor did I want people to cheat the puzzles, so I programmed a rather unnecessary about of obfuscation. Puzzles with an input were checked with a hash, and I built JWTs using a player's progress in the game and their login token such that a player couldn't easily edit their progress, nor share their progress with others. Despite being almost entirely unnecessary, this anti-cheat was pretty fun to make, and I have more pride in it than I reasonably should.
+
+There were so many other fun challenges with coding ViriDOS: creating cloud sync, wrestling with xterm.js to create a usable text interface, and also this one stupid bug that caused the entire screen to zoom in and out that *only appeared when deployed on Vercel*, and therefore required multiple pushed commits to get to the bottom to! Somehow, it got done, and after playtesting and a *ton* of bugfixing, we were able to to get it to a playable state.
+
+We also advertised this game surprisingly heavily. Brandon and I created three trailers and two instagram teasers, of which I edited the third trailer and two teasers. The trailer I edited is available to view at the top of this page.
+
+In the end, I'm really proud of ViriDOS. It was a project created over the span of months, mostly by two people. The codebase is janky as heck, the "acting" is definitely high school project level, and overall it's not the most polished game or webapp. But at the end of the day, it was the first *real* programming project I tackled, and I had a blast creating it.
+
+[Play ViriDOS](https://viridos.toadtoad.xyz) | [Source code](https://github.com/aekaisato/OxfordARG)

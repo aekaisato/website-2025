@@ -1,0 +1,46 @@
+.content-container {
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: var(--content-width);
+}
+
+h2 {
+  margin: 0px;
+}
+
+.content-container img {
+  border-radius: 4px;
+  max-width: 100%;
+  max-height: 35vh;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+lite-youtube {
+  border-radius: 4px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-color: #888888;
+  margin: 20px 0px;
+}
+
+body {
+  background-color: var(--content-light);
+  color: var(--content-dark);
+}
+
+a {
+  color: #57a0ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--content-dark);
+    color: var(--content-light);
+  }
+}

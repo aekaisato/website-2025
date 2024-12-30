@@ -1,0 +1,19 @@
+---
+name: My YouTube Channel
+date: ""
+tags: ["filmmaking", "video-editing"]
+hide: true
+---
+
+<script>
+  import LiteYouTube from '$lib/components/LiteYouTube.svelte';
+</script>
+
+<p></p> <!-- for spacing -->
+<LiteYouTube videoId="ihf6BnHQr4s" videoTitle='Play: Ohio State University has a trademark on the word "THE"' />
+
+For fun, whenever I have the time and inspiration, I create a video to put on YouTube on a random topic. Right now, there's only a couple of videos, though whenever I find an idea I'd love to make a video for, expect it to eventually land on this channel. I mostly use it as a way to continue to practice my video editing and production skills, so I enjoy it, even if it doesn't get views.
+
+Fun fact about this embedded video, on Ohio State University's registered trademark on the word "THE": the entire video was edited in Blender. I would *much*, much prefer to use DaVinci Resolve, but due to the lack of support for 11th gen Intel integrated graphics on Linux in DaVinci Resolve (a weirdly specific combination), I had to find it alternative (after production of the video, I set up dual boot and will be using that to edit on a laptop in the future). It...wasn't fun. There were constant issues, and many things like transitions that I have presets for in Resolve were much harder to do in Blender (the context menu transition button was inconsistent, and manually keyframing wastes time). However, I do really, really like how Blender handles keyframes.
+
+Visit the channel [on YouTube](https://www.youtube.com/channel/UCXFcmOeXm7bcxBG3qPEiOkw)!

@@ -1,0 +1,11 @@
+---
+name: Creed (Prototype)
+date: 2022-01
+tags: ["programming", "game-dev", "ui-design"]
+---
+
+![Creed UI Draft Sketch](/content-img/portfolio/creed/creed-sketch.jpg)
+
+Creed is a social deduction card game where all players have a different win condition, designed by [Matthew Young](https://www.instagram.com/matt55young/). Although [Tower Heist](#tower-heist) began as a project first, we plan to finish Creed first, due to the relative simplicity of the game, making it easier to build and ship.
+
+Alongside [Hayden DelCiello](https://github.com/hdelc) and [Brandon Imai](https://www.linkedin.com/in/brandon-imai-725692204), a Creed mobile app prototype was created in Godot. However, due to challenges with the small amount of screen real estate on a mobile device, compromises would have to be made in terms of ease of use and the intuitiveness of the controls. Due to this, we are likely to shift to a web-based format for the game, although work on this is still pending.
