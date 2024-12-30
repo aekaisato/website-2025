@@ -1,7 +1,7 @@
 :root {
   --text-color: #dddddd;
 
-  --content-width: 700px;
+  --content-width: 600px;
   --content-light: hsl(270 75 95);
   --content-dark: hsl(270 20 7);
 }
