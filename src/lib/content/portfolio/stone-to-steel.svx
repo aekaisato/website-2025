@@ -9,7 +9,7 @@ hide: true
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="-O98ymHlT3A" videoTitle="Play: From Stone to Steel" />
+<LiteYouTube videoId="-O98ymHlT3A" videoTitle="From Stone to Steel" />
 
 From Stone to Steel is a short documentary made on a month-long school trip abroad in London. Inspired by the extreme contrasts in architecture present in the city, the video dives into what led to this, and what citizens think of it. For this video, I came up with the concept, filmed some of the interview and b-roll footage, and served as lead video editor.
 

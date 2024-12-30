@@ -10,7 +10,7 @@ hide: true
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="ihf6BnHQr4s" videoTitle='Play: Ohio State University has a trademark on the word "THE"' />
+<LiteYouTube videoId="ihf6BnHQr4s" videoTitle='Ohio State University has a trademark on the word "THE"' />
 
 For fun, whenever I have the time and inspiration, I create a video to put on YouTube on a random topic. Right now, there's only a couple of videos, though whenever I find an idea I'd love to make a video for, expect it to eventually land on this channel. I mostly use it as a way to continue to practice my video editing and production skills, so I enjoy it, even if it doesn't get views.
 

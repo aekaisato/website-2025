@@ -10,7 +10,10 @@
 
 <div class="yt-box">
 	<lite-youtube videoid={videoId} videotitle={videoTitle}>
-    <a class="lite-youtube-fallback" target="_blank" href={`https://www.youtube.com/watch?v=${videoId}`}>{videoTitle}</a>
+		<div class="lite-youtube-fallback">
+			<img loading="lazy" src="https://i.ytimg.com/vi/{videoId}/hqdefault.jpg" alt="thumbnail for {videoTitle}" />
+			<a target="_blank" href={`https://www.youtube.com/watch?v=${videoId}`}>Play: {videoTitle}</a>
+		</div>
   </lite-youtube>
 </div>
 
@@ -19,5 +22,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.lite-youtube-fallback {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		a {
+			text-align: center;
+		}
 	}
 </style>

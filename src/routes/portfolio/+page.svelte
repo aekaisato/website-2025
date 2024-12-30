@@ -41,9 +41,3 @@
     {/each}
   </div>
 </div>
-
-<style>
-  h1 {
-    margin-bottom: 0px;
-  }
-</style>

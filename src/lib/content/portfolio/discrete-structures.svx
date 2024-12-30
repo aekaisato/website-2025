@@ -9,7 +9,7 @@ tags: ["filmmaking", "video-editing", "music"]
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="qxP6IkUXSK0" videoTitle="Play: discrete structures final video proj" />
+<LiteYouTube videoId="qxP6IkUXSK0" videoTitle="discrete structures final video proj" />
 
 Oh boy, now *this* is a video! For our Discrete Structures class final project, we were asked to take a homework problem from a selection, recontextualize it and change the numbers, and make a video working through the problem. We were encouraged to have fun with the video and be creative. ***I don't think they ever saw our video coming.***
 

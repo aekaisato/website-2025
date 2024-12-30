@@ -9,7 +9,7 @@ tags: ["programming", "game-dev", "filmmaking", "video-editing", "music", "ui-de
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="7IZIY0iLYqs" videoTitle="Play: ViriDOS Main Trailer" />
+<LiteYouTube videoId="7IZIY0iLYqs" videoTitle="ViriDOS Main Trailer" />
 
 [ViriDOS](https://viridos.toadtoad.xyz) (where "DOS" is pronounced as in "MS-DOS"), is a point-and-click adventure game [Brandon Imai](https://www.linkedin.com/in/brandon-imai-725692204) and I made in our senior year of high school. Largely inspired by games such as Club Penguin's [Penguin Secret Agency missions](https://www.youtube.com/watch?v=XgmusFTNSC0), ViriDOS was created for our school's PTSA to serve as an fun event for students during online learning. Brandon and I were quite ambitious with the project, and in the end, the hour-long experience featured an original story and script involving the participation of many school staff members, 16 unique puzzles, 360° panoramas of several classrooms to interact with, video cutscenes of the campus, original music, cloud sync, and a really janky "status system" that served as a timeline to control the linear progression and events of the game. From brainstorming to release, the game took 7 months to create.
 

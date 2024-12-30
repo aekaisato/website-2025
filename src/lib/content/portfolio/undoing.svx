@@ -10,7 +10,7 @@ hide: true
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="T0iASTp6aa0" videoTitle="Play: Undoing" />
+<LiteYouTube videoId="T0iASTp6aa0" videoTitle="Undoing" />
 
 Like many things I'm proud of making, "Undoing" came from what many would consider to be a stupid idea. For my 12th grade AP Literature class, our teacher assigned us to do some sort of creative group project relating to Gothic literature and themes. It could be anything, though we were still in the middle of quarantine. Additionally, this was assigned on a Thursday, due before class the following Thursday; we had only a week to make it. Regardless, I *really* wanted to make a short film.
 

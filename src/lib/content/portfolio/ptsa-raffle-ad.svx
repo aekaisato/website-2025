@@ -9,12 +9,12 @@ hide: true
 </script>
 
 <p></p> <!-- for spacing -->
-<LiteYouTube videoId="YQGxtmzyOr4" videoTitle="Play: OA PTSA Winter Raffle Ad" />
+<LiteYouTube videoId="YQGxtmzyOr4" videoTitle="OA PTSA Winter Raffle Ad" />
 
 My high school's PTSA wanted to better advertise the raffle event they were running. I was given complete creative control to work on a video to advertise the event by showcasing the baskets, and I wanted to make the video as "hyped-up" as possible. Once again, I worked with [Brandon Imai](https://www.linkedin.com/in/brandon-imai-725692204) on the video.
 
 I was inspired by the many tech channels that have a rotating display of a product to show it off. However, I don't have an expensive setup where I can do that easily. So how was this video made? We bought some Philips Hue lights and lamp stands at Home Depot, spray painted my family's kitchen's Lazy Susan black, taped up black tablecloths to my living room wall, and had Brandon rotate the Lazy Susan from the floor while I'd film. Here's what it *actually* looked like behind the scenes:
 
-<LiteYouTube videoId="luRvPcjrFHU" videoTitle="Play: Behind the Scenes" />
+<LiteYouTube videoId="luRvPcjrFHU" videoTitle="Behind the Scenes" />
 
 After filming, I edited the video, timing various cuts to music. I'm still quite proud of the video, considering it was made in two days (three if you count the trip to Home Depot the night before.) Several watching the ad for the first time on our school broadcast were really impressed with the video, which I'm really happy with.
