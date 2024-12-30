@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300 700;
+  font-optical-sizing: auto;
+  font-display: auto;
+  src: url("./fonts/SpaceGrotesk[wght].woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-display: auto;
+  src: url("./fonts/InterVariable.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-display: auto;
+  src: url("./fonts/InterVariable-Italic.woff2") format('woff2');
+}
