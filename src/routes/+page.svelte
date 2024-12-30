@@ -1,5 +1,5 @@
 <script lang="ts">
-	import navLinks from "$lib/content/nav-links.json";
+	import NavLinks from '$lib/components/NavLinks.svelte';
 </script>
 
 <svelte:head>
@@ -12,16 +12,8 @@
 	</div>
 	<div class="content-box">
 		<h1>Aiden Sato</h1>
-		<hr/>
-		{#each navLinks as link}
-			<h2 class={link.wip ? "wip" : ""}>
-				{#if link.wip}
-					{link.name}
-				{:else}
-					<a href="{link.path}">{link.name}</a>
-				{/if}
-			</h2>
-		{/each}
+		<hr />
+		<NavLinks />
 	</div>
 </div>
 
@@ -57,31 +49,32 @@
 		padding: 3vh;
 		backdrop-filter: blur(10px);
 		border-radius: 8px;
-	}
 
-	h1, h2 {
-		margin: 2vh;
-		text-align: left;
-	}
+		:global(h1),
+		:global(h2) {
+			margin: 2vh;
+			text-align: left;
+		}
 
-	h2 {
-		font-weight: normal;
-	}
+		:global(h2) {
+			font-weight: normal;
+		}
 
-	a {
-		text-decoration: none;
-		color: var(--text-color);
-	}
+		:global(a) {
+			text-decoration: none;
+			color: var(--text-color);
+		}
 
-	a:hover {
-		text-decoration: underline;
-	}
+		:global(a:hover) {
+			text-decoration: underline;
+		}
 
-	.wip {
-		color: #888888;
-	}
+		:global(.wip) {
+			color: #888888;
+		}
 
-	.wip:after {
-		content: " (coming soon...)"
+		:global(.wip:after) {
+			content: ' (coming soon...)';
+		}
 	}
 </style>
