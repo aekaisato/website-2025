@@ -13,6 +13,8 @@
 <div class="content-container">
   <h1>{data.metadata.name}</h1>
   <sub>{dateFormatter(data.date)}</sub>
+  <p><i>{data.metadata.description}</i></p>
+  <hr />
   <article>
     <svelte:component this={data.default} />
   </article>
