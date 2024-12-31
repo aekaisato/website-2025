@@ -3,6 +3,8 @@ import { Constants } from "$lib/util/constants";
 import type { BlogComponent } from "$lib/util/types";
 import { parseISO } from "date-fns";
 
+export const prerender = true;
+
 export function GET() {
   const posts = fetchPosts();
 
