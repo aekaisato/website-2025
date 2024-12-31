@@ -1,7 +1,6 @@
 ---
 name: Test Entry lol
 description: among us sus
-hide: true
 ---
 
 # hello
