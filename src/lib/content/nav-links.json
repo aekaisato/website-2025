@@ -6,7 +6,8 @@
   },
   {
     "name": "resume",
-    "path": "/resume.pdf"
+    "path": "/resume.pdf",
+    "newtab": true
   },
   {
     "name": "portfolio",

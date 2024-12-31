@@ -1,13 +1,15 @@
-import type { PortfolioComponent } from "$lib/util/types";
+import type { ComponentImport, PortfolioComponent, PortfolioMetadata } from "$lib/util/types";
 import { Constants } from "$lib/util/constants";
 import { parseISO, compareDesc } from "date-fns";
-import { extname, basename } from "pathe";
+import { extractSlug } from "$lib/util/slug";
+
+type PortfolioComponentRecord = Record<string, ComponentImport<PortfolioMetadata>>;
 
 const rawComponents = import.meta.glob("$lib/content/portfolio/*.svx", { eager: true });
-const processed = processComponents(recordToPortfolioComponents(rawComponents));
+const processed = processComponents(recordToPortfolioComponents(rawComponents as PortfolioComponentRecord));
 export default processed;
 
-function recordToPortfolioComponents(record: Record<string, unknown>): PortfolioComponent[] {
+function recordToPortfolioComponents(record: PortfolioComponentRecord): PortfolioComponent[] {
   const arr = [];
   for (const k of Object.keys(record)) {
     const c = {...record[k] as object, slug: extractSlug(k)} as PortfolioComponent;
@@ -18,12 +20,6 @@ function recordToPortfolioComponents(record: Record<string, unknown>): Portfolio
     arr.push(c);
   }
   return arr;
-}
-
-function extractSlug(modulePath: string): string {
-  const ext = extname(modulePath);
-  const slug = basename(modulePath, ext);
-  return slug;
 }
 
 function processComponents(components: PortfolioComponent[]): PortfolioComponent[] {

@@ -7,7 +7,7 @@
     {#if link.wip}
       {link.name}
     {:else}
-      <a href="{link.path}">{link.name}</a>
+      <a href="{link.path}" target={link.newtab ? "_blank" : '_self'}>{link.name}</a>
     {/if}
   </h2>
 {/each}
