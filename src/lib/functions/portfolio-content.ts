@@ -1,7 +1,7 @@
 import type { ComponentImport, PortfolioComponent, PortfolioMetadata } from "$lib/util/types";
 import { Constants } from "$lib/util/constants";
 import { parseISO, compareDesc } from "date-fns";
-import { extractSlug } from "$lib/util/slug";
+import { extractSlug } from "$lib/util/naming";
 
 type PortfolioComponentRecord = Record<string, ComponentImport<PortfolioMetadata>>;
 

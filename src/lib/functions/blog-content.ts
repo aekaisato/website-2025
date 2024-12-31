@@ -1,6 +1,6 @@
 import type { BlogComponent, BlogMetadata, ComponentImport } from "$lib/util/types";
 import { error } from "@sveltejs/kit";
-import { extractSlug, splitDateslug } from "$lib/util/slug";
+import { extractSlug, splitDateslug } from "$lib/util/naming";
 
 type PortfolioComponentRecord = Record<string, ComponentImport<BlogMetadata>>;
 

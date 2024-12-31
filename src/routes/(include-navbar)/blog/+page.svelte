@@ -1,11 +1,12 @@
 <script lang="ts">
   import { fetchPosts } from "$lib/functions/blog-content"
+	import { pageTitle } from "$lib/util/naming";
 
   const posts = fetchPosts();
 </script>
 
 <svelte:head>
-  <title>Blog | aekai</title>
+  <title>{pageTitle("Blog")}</title>
 </svelte:head>
 
 <div class="content-container">

@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { dateFormatter } from "$lib/functions/formatters";
+	import { pageTitle } from "$lib/util/naming";
 	import type { BlogComponent } from "$lib/util/types";
 
   export let data: BlogComponent;
 </script>
 
 <svelte:head>
-  <title>{data.metadata.name} | Aiden Sato</title>
+  <title>{pageTitle(data.metadata.name)}</title>
 </svelte:head>
 
 <div class="content-container">

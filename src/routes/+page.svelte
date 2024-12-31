@@ -1,9 +1,10 @@
 <script lang="ts">
 	import NavLinks from '$lib/components/NavLinks.svelte';
+	import { pageTitle } from '$lib/util/naming';
 </script>
 
 <svelte:head>
-	<title>Aiden Sato | aekai</title>
+	<title>{pageTitle("Aiden Sato")}</title>
 </svelte:head>
 
 <div class="container">

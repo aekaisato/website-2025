@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { dateFormatter } from "$lib/functions/formatters";
   import portfolioContent from "$lib/functions/portfolio-content"
+	import { pageTitle } from "$lib/util/naming";
 </script>
 
 <svelte:head>
-  <title>Portfolio | aekai</title>
+  <title>{pageTitle("Portfolio")}</title>
 </svelte:head>
 
 <div class="content-container">

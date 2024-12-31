@@ -23,6 +23,7 @@ export type PortfolioComponent = {
 
 export type BlogMetadata = {
   name: string,
+  description: string,
   tags?: string[],
   hide?: boolean
 }

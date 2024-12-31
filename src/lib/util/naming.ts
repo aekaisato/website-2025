@@ -16,3 +16,7 @@ export function splitDateslug(dateslug: string): { date: string, slug: string } 
     error(500, `invalid dateslug: ${dateslug}`)
   }
 }
+
+export function pageTitle(title: string) {
+  return `${title} ${Constants.TITLE_SEPARATOR} ${Constants.SITE_NAME}`;
+}
