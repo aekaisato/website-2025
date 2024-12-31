@@ -1,6 +1,7 @@
 ---
 name: Yippee!
 description: yippeeeeeeeeee!!
+hide: true
 ---
 # yippee
 
